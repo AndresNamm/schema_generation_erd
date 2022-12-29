@@ -1,0 +1,7 @@
+[project]
+name = "schema_generations"
+version = "42"
+dependencies = ["ERAlchemy","sqlalchemy<1.4"]
+
+[project.optional-dependencies]
+dev = ["ipykernel"]
